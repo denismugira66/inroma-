@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Inropa Fumigants & Company Ltd</title>
+  <meta name="description" content="View our portfolio of pest control, fumigation, and cleaning projects in Kenya. Before and after galleries." />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar" id="mainNav">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <a href="index.html"><span class="logo-primary">Inropa</span> Fumigants</a>
+      </div>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html" class="active">Portfolio</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="quote.html">Quote</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="nav-toggle" id="navToggle">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Our Portfolio</h1>
+      <p>See our work in action - before and after results</p>
+    </div>
+  </section>
+
+  <!-- Filterable Gallery -->
+  <section class="portfolio-gallery">
+    <div class="container">
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All Projects</button>
+        <button class="filter-btn" data-filter="pest">Pest Control</button>
+        <button class="filter-btn" data-filter="cleaning">Cleaning</button>
+        <button class="filter-btn" data-filter="fumigation">Fumigation</button>
+      </div>
+
+      <div class="portfolio-grid" id="portfolioGrid">
+        <!-- Project 1 -->
+        <div class="portfolio-item" data-category="pest">
+          <div class="portfolio-image">
+            <div class="image-placeholder"><i class="fas fa-bug"></i></div>
+            <div class="portfolio-overlay">
+              <h4>Termite Treatment</h4>
+              <p>Residential termite elimination</p>
+            </div>
+          </div>
+          <div class="portfolio-badges">
+            <span class="badge before">Before</span>
+            <span class="badge after">After</span>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="portfolio-item" data-category="cleaning">
+          <div class="portfolio-image">
+            <div class="image-placeholder"><i class="fas fa-broom"></i></div>
+            <div class="portfolio-overlay">
+              <h4>Office Deep Clean</h4>
+              <p>Commercial office sanitation</p>
+            </div>
+          </div>
+          <div class="portfolio-badges">
+            <span class="badge before">Before</span>
+            <span class="badge after">After</span>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="portfolio-item" data-category="fumigation">
+          <div class="portfolio-image">
+            <div class="image-placeholder"><i class="fas fa-wind"></i></div>
+            <div class="portfolio-overlay">
+              <h4>Warehouse Fumigation</h4>
+              <p>Commercial space treatment</p>
+            </div>
+          </div>
+          <div class="portfolio-badges">
+            <span class="badge before">Before</span>
+            <span class="badge after">After</span>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="portfolio-item" data-category="cleaning">
+          <div class="portfolio-image">
+            <div class="image-placeholder"><i class="fas fa-couch"></i></div>
+            <div class="portfolio-overlay">
+              <h4>Sofa Restoration</h4>
+              <p>Deep steam cleaning</p>
+            </div>
+          </div>
+          <div class="portfolio-badges">
+            <span class="badge before">Before</span>
+            <span class="badge after">After</span>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="portfolio-item" data-category="pest">
+          <div class="portfolio-image">
+            <div class="image-placeholder"><i class="fas fa-skull"></i></div>
+            <div class="portfolio-overlay">
+              <h4>Rodent Control</h4>
+              <p>Residential rodent removal</p>
+            </div>
+          </div>
+          <div class="portfolio-badges">
+            <span class="badge before">Before</span>
+            <span class="badge after">After</span>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="portfolio-item" data-category="cleaning">
+          <div class="portfolio-image">
+            <div class="image-placeholder"><i class="fas fa-bed"></i></div>
+            <div class="portfolio-overlay">
+              <h4>Mattress Sanitization</h4>
+              <p>Allergen removal and deep clean</p>
+            </div>
+          </div>
+          <div class="portfolio-badges">
+            <span class="badge before">Before</span>
+            <span class="badge after">After</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Success Stories -->
+  <section class="success-stories">
+    <div class="container">
+      <h2 class="section-title">Customer <span>Success Stories</span></h2>
+      <div class="stories-grid">
+        <div class="story-card">
+          <i class="fas fa-star"></i>
+          <p>"Inropa transformed our office after a major pest infestation. Professional, efficient, and thorough."</p>
+          <span>- ABC Company, Nairobi</span>
+        </div>
+        <div class="story-card">
+          <i class="fas fa-star"></i>
+          <p>"Our hotel rooms look brand new after their deep cleaning services. Highly recommended!"</p>
+          <span>- Coastal Resort, Mombasa</span>
+        </div>
+        <div class="story-card">
+          <i class="fas fa-star"></i>
+          <p>"The fumigation team was professional and discreet. Our warehouse is completely pest-free."</p>
+          <span>- Logistics Ltd, Kisumu</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3>Inropa Fumigants &amp; Co.</h3>
+          <p>Reliable pest control and cleaning services across Kenya.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="quote.html">Quote</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul>
+            <li><a href="services.html">Pest Control</a></li>
+            <li><a href="services.html">Fumigation</a></li>
+            <li><a href="services.html">Office Cleaning</a></li>
+            <li><a href="services.html">Sofa Cleaning</a></li>
+            <li><a href="services.html">Mattress Cleaning</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p><i class="fas fa-phone"></i> +254 700 123 456</p>
+          <p><i class="fas fa-envelope"></i> info@inropafumigants.co.ke</p>
+          <p><i class="fas fa-clock"></i> Mon–Fri: 7am–6pm</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Inropa Fumigants &amp; Company Ltd. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <a href="https://wa.me/254700123456" class="whatsapp-float" target="_blank" rel="noopener">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <button id="backToTop" class="back-to-top"><i class="fas fa-arrow-up"></i></button>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
